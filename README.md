@@ -10,7 +10,7 @@ We have 2.5 months’ worth of data:
 * Sessions & Events: user's activities on the app
 * Message: what messages users received from the app and how they received and responded to them.
 
-The total size of the data we got is 45.25GB.
+The total size of the data we used for this project is 45.25GB.
 
 The target prediction is on the user level (whether a user will make a purchase or not). However, the raw data is not on the readily usable granularity. For instance, in Events dataset, each row records a specific action a user had in a particular session. Therefore, the overall approach we take to extract features is to aggregate raw data to the user level, using, the mean, mode, max value, etc.
 
@@ -19,7 +19,7 @@ We use Random Forest and XGBoost algorithms to build predictive models, using fe
 
 
 ## Project team:
-We are [Hai Vu Le](https://github.com/haivule), (Anna Zeng)[https://github.com/ztzeng], and [Aditi Sharma](https://github.com/AditiSharmaUSFCA). We are all MS in Data Science students at University of San Francisco, Class of 2019.
+We are [Hai Vu Le](https://github.com/haivule), [Anna Zeng](https://github.com/ztzeng), and [Aditi Sharma](https://github.com/AditiSharmaUSFCA). We are all MS in Data Science students at University of San Francisco, Class of 2019.
 
 ## Acknowledgement:
 We would like to send to:
