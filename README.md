@@ -15,7 +15,9 @@ The total size of the data we used for this project is 45.25GB.
 The target prediction is on the user level (whether a user will make a purchase or not). However, the raw data is not on the readily usable granularity. For instance, in Events dataset, each row records a specific action a user had in a particular session. Therefore, the overall approach we take to extract features is to aggregate raw data to the user level, using, the mean, mode, max value, etc.
 
 ## Machine learning method:
-We use Random Forest and XGBoost algorithms to build predictive models, using features that are aggregated to user-level. The performance of models is assessed using AUC as the performance metric. Our best model achieved a 0.985 AUC score.
+We use Random Forest and XGBoost algorithms to build predictive models, using features that are aggregated to user-level. The performance of models is assessed using AUC as the performance metric. Our best model achieved a 0.985 AUC score with the following features:
+
+![Feature Importance from an XGBoost model](https://raw.githubusercontent.com/HaiVuLe/in-app-purchase-prediction/master/images/feature_importance.png)
 
 ## What is included in this repo:
 * [Prediction engineering](./compute_target.ipynb): how we structured our machine learning problem, defined, and computed the labels for prediction
