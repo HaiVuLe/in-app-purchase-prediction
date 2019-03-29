@@ -19,7 +19,7 @@ We use Random Forest and XGBoost algorithms to build predictive models, using fe
 
 ## What is included in this repo:
 * [Prediction engineering](./compute_target.ipynb): how we structured our machine learning problem, defined, and computed the labels for prediction
-* [Feature engineering](features/): how we extracted, transformed, and aggregated raw (oftentimes arbitrary) data to meaningful features.
+* [Feature engineering](feature-engineering/): how we extracted, transformed, and aggregated raw (oftentimes arbitrary) data to meaningful features.
 * [Modeling](models/): different versions of models we trained to predict our target.
 
 *Notes:*
