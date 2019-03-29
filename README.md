@@ -25,7 +25,7 @@ We are [Hai Vu Le](https://github.com/haivule), [Anna Zeng](https://github.com/z
 We would like to send to:
 * [Yannet Interian](https://github.com/yanneta), our professor at University of San Francisco to organize this Kaggle competition for us as the final project of her Advanced Machine Learning course, 2019.
 
-* LeanPlum machine learning pod for providing their real-world data for this project. 
+* [LeanPlum](https://www.leanplum.com/) machine learning pod for providing their real-world data for this project. 
 
 ## Notes:
 Due to confidentiality, we would not provide the data sets we used here and would not reveal identifiable findings and/or visualization that underlie our machine learning approach. In this repository, we would like to demonstrate our approach and machine learning solution to this important business problem at hand.
