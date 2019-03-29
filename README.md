@@ -15,7 +15,15 @@ The total size of the data we used for this project is 45.25GB.
 The target prediction is on the user level (whether a user will make a purchase or not). However, the raw data is not on the readily usable granularity. For instance, in Events dataset, each row records a specific action a user had in a particular session. Therefore, the overall approach we take to extract features is to aggregate raw data to the user level, using, the mean, mode, max value, etc.
 
 ## Machine learning method:
-We use Random Forest and XGBoost algorithms to build predictive models, using features that are aggregated to user-level. The performance of models is assessed using AUC as the performance metric. Our best model achieved a 0.9765 AUC score. This paper discusses the details about the characteristics of the data, the features we extract, and our model training process.
+We use Random Forest and XGBoost algorithms to build predictive models, using features that are aggregated to user-level. The performance of models is assessed using AUC as the performance metric. Our best model achieved a 0.985 AUC score.
+
+## What is included in this repo:
+* [Prediction engineering](./compute_target.ipynb): how we structured our machine learning problem, defined, and computed the labels for prediction
+* [Feature engineering] (./features.ipynb): how we extract, transform, and aggregate raw (oftentimes arbitrary) data to meaningful features.
+* [Modeling] (./models/): different versions of models we trained to predict our target.
+
+*Notes:*
+Due to confidentiality, we would not provide the data sets we used here and would not reveal identifiable findings and/or visualization that underlie our machine learning approach. In this repository, we would like to demonstrate our approach and machine learning solution to this important business problem at hand.
 
 
 ## Project team:
@@ -26,6 +34,3 @@ We would like to send to:
 * [Yannet Interian](https://github.com/yanneta), our professor at University of San Francisco to organize this Kaggle competition for us as the final project of her Advanced Machine Learning course, 2019.
 
 * [LeanPlum](https://www.leanplum.com/) machine learning pod for providing their real-world data for this project. 
-
-## Notes:
-Due to confidentiality, we would not provide the data sets we used here and would not reveal identifiable findings and/or visualization that underlie our machine learning approach. In this repository, we would like to demonstrate our approach and machine learning solution to this important business problem at hand.
